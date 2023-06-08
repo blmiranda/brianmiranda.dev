@@ -1,0 +1,55 @@
+/*
+=======================================
+GENERAL
+=======================================
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-light: #f0f0f0;
+  --background-dark: #0f0f0f;
+
+  --font-color: #7f7f7f;
+
+  --primary-color: #ed217c;
+  --secondary-color: #008aff;
+  --tertiary-color: #a900ff;
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html,
+body {
+  font-size: 3rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  color: var(--font-color);
+  background-color: var(--background-light);
+  overflow-y: hidden;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  scroll-snap-align: center;
+}
+
+/*
+=======================================
+KEYFRAMES
+=======================================
+*/
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
