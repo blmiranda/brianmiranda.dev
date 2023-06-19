@@ -21,7 +21,6 @@ const CirclesContainer = styled.div`
   width: 43.7rem;
   height: 43.7rem;
   position: relative;
-  animation: rotation 5s linear infinite;
 `;
 
 const AnimatedCircles = styled.div`
